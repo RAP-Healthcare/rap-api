@@ -12,9 +12,6 @@ import io.github.xaphira.feign.dto.master.CityDatatableResponseDto;
 import io.github.xaphira.feign.dto.master.CityDto;
 import io.github.xaphira.feign.dto.select.SelectDto;
 import io.github.xaphira.feign.dto.select.SelectResponseDto;
-import io.github.xaphira.master.dao.CityRepo;
-import io.github.xaphira.master.dao.specification.CitySpecification;
-import io.github.xaphira.master.entity.CityEntity;
 
 @Service("cityService")
 public class CityImplService extends CommonService {

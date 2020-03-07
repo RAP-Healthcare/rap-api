@@ -14,7 +14,6 @@ import io.github.xaphira.common.exceptions.BaseControllerException;
 import io.github.xaphira.feign.dto.common.FilterDto;
 import io.github.xaphira.feign.dto.master.CityDatatableResponseDto;
 import io.github.xaphira.feign.dto.select.SelectResponseDto;
-import io.github.xaphira.master.service.CityImplService;
 
 @RestController
 @RequestMapping("/api/master")

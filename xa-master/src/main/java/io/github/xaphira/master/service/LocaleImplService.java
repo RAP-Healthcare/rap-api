@@ -12,9 +12,6 @@ import io.github.xaphira.common.service.CommonService;
 import io.github.xaphira.feign.dto.common.FilterDto;
 import io.github.xaphira.feign.dto.select.SelectDto;
 import io.github.xaphira.feign.dto.select.SelectResponseDto;
-import io.github.xaphira.master.dao.LocaleRepo;
-import io.github.xaphira.master.dao.specification.LocaleSpecification;
-import io.github.xaphira.master.entity.LocaleEntity;
 
 @Service("localeService")
 public class LocaleImplService extends CommonService {

@@ -12,8 +12,6 @@ import javax.persistence.criteria.Root;
 
 import org.springframework.data.jpa.domain.Specification;
 
-import io.github.xaphira.master.entity.SubDistrictEntity;
-
 public class SubDistrictSpecification {
 	
 	private static final String IS_ACTIVE = "active";

@@ -9,8 +9,6 @@ import javax.persistence.criteria.Root;
 
 import org.springframework.data.jpa.domain.Specification;
 
-import io.github.xaphira.master.entity.LocaleEntity;
-
 public class LocaleSpecification {
 	
 	private static final String IS_ACTIVE = "active";

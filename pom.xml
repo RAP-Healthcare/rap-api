@@ -90,6 +90,7 @@
         <module>xa-master</module>
         <module>xa-security</module>
         <module>xa-main</module>
+		<module>xa-medical</module>
     </modules>
 	
 	<build>

@@ -10,9 +10,6 @@ import io.github.xaphira.common.service.CommonService;
 import io.github.xaphira.feign.dto.common.FilterDto;
 import io.github.xaphira.feign.dto.select.SelectDto;
 import io.github.xaphira.feign.dto.select.SelectResponseDto;
-import io.github.xaphira.master.dao.CountryRepo;
-import io.github.xaphira.master.dao.specification.CountrySpecification;
-import io.github.xaphira.master.entity.CountryEntity;
 
 @Service("countryService")
 public class CountryImplService extends CommonService {

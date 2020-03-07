@@ -10,9 +10,6 @@ import io.github.xaphira.common.service.CommonService;
 import io.github.xaphira.feign.dto.common.FilterDto;
 import io.github.xaphira.feign.dto.select.SelectDto;
 import io.github.xaphira.feign.dto.select.SelectResponseDto;
-import io.github.xaphira.master.dao.ProvinceRepo;
-import io.github.xaphira.master.dao.specification.ProvinceSpecification;
-import io.github.xaphira.master.entity.ProvinceEntity;
 
 @Service("provinceService")
 public class ProvinceImplService extends CommonService {

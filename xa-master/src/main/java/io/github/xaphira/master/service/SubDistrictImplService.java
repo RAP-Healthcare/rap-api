@@ -10,9 +10,6 @@ import io.github.xaphira.common.service.CommonService;
 import io.github.xaphira.feign.dto.common.FilterDto;
 import io.github.xaphira.feign.dto.select.SelectDto;
 import io.github.xaphira.feign.dto.select.SelectResponseDto;
-import io.github.xaphira.master.dao.SubDistrictRepo;
-import io.github.xaphira.master.dao.specification.SubDistrictSpecification;
-import io.github.xaphira.master.entity.SubDistrictEntity;
 
 @Service("subDistrictService")
 public class SubDistrictImplService extends CommonService {
