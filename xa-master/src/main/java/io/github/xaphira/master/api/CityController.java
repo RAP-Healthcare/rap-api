@@ -1,5 +1,6 @@
 package io.github.xaphira.master.api;
 
+import io.github.xaphira.master.service.CityImplService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

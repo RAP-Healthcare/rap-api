@@ -1,5 +1,8 @@
 package io.github.xaphira.master.service;
 
+import io.github.xaphira.master.dao.CityRepo;
+import io.github.xaphira.master.dao.specification.CitySpecification;
+import io.github.xaphira.master.entity.CityEntity;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
